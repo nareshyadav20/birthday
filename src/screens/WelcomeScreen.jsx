@@ -15,19 +15,19 @@ const WelcomeScreen = () => {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
         <motion.img
-          src="/images/hemanthi/hemanthi_poster.jpg"
-          alt="Hemanthi"
-          style={{ width: '200px', height: '200px', borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 18%', border: '4px solid var(--accent-pink)', marginBottom: '30px', boxShadow: '0 0 20px rgba(255,107,158,0.4)' }}
+          src="/images/keerthana/keerthana_poster.jpg"
+          alt="Keerthana"
+          style={{ width: '200px', height: '200px', borderRadius: '50%', objectFit: 'cover', objectPosition: 'center 20%', border: '4px solid var(--accent-pink)', marginBottom: '30px', boxShadow: '0 0 20px rgba(255,107,158,0.4)' }}
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ type: 'spring', stiffness: 200, damping: 20 }}
           onError={(e) => {
-            e.target.src = 'https://via.placeholder.com/200x200?text=Hemanthi';
+            e.target.src = 'https://via.placeholder.com/200x200?text=Keerthana';
           }}
         />
 
         <h1 className="heading-large" style={{ fontSize: '2.5rem' }}>
-          Hey Hemanthi... ❤️
+          Hey Keerthana... ❤️
         </h1>
 
         <p className="body-text" style={{ marginBottom: '20px', fontSize: '1.2rem' }}>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import NextButton from '../components/NextButton';
 import ProgressIndicator from '../components/ProgressIndicator';
-import { hemanthiPhotos } from '../data/photos';
+import { keerthanaPhotos } from '../data/photos';
 
 const PuzzleScreen = () => {
   const [pieces, setPieces] = useState([0, 1, 2, 3]);
@@ -110,7 +110,7 @@ const PuzzleScreen = () => {
                   height: '100%',
                   cursor: isCompleted ? 'default' : 'pointer',
                   borderRadius: isCompleted ? '0px' : '8px',
-                  backgroundImage: `url(${hemanthiPhotos[0].image})`,
+                  backgroundImage: `url(${keerthanaPhotos[0].image})`,
                   backgroundSize: '200% 200%',
                   backgroundPosition: `${originalX}% ${originalY}%`,
                   boxShadow: selectedPiece === index ? 'inset 0 0 0 4px var(--accent-gold)' : 'none',

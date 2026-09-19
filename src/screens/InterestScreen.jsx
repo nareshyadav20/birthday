@@ -4,7 +4,7 @@ import NextButton from '../components/NextButton';
 import ProgressIndicator from '../components/ProgressIndicator';
 
 const interests = [
-  { id: 'dance', icon: '💃', label: 'Dancing', message: "When music starts, Hemanthi starts speaking a completely different language." },
+  { id: 'dance', icon: '💃', label: 'Dancing', message: "When music starts, Keerthana starts speaking a completely different language." },
   { id: 'sing', icon: '🎤', label: 'Singing', message: "One song becomes five songs very quickly. 😂" },
   { id: 'makeup', icon: '💄', label: 'Makeup', message: "Artist mode: ON." },
   { id: 'photos', icon: '📸', label: 'Photos', message: "Main character energy activated." },

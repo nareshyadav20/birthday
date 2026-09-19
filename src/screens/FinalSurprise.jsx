@@ -3,13 +3,14 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import confetti from 'canvas-confetti';
 import { messages } from '../data/messages';
-import { hemanthiPhotos } from '../data/photos';
+import { keerthanaPhotos } from '../data/photos';
 
 const finalPhotos = [
-  "/images/hemanthi/hemanthi_poster.jpg",
-  "/images/hemanthi/hemanthi_traditional.jpg",
-  "/images/hemanthi/hemanthi_smile.jpg",
-  "/images/hemanthi/hemanthi_outdoor.jpg"
+  "/images/keerthana/keerthana_poster.jpg",
+  "/images/keerthana/keerthana_traditional.jpg",
+  "/images/keerthana/keerthana_car.jpg",
+  "/images/keerthana/keerthana_outdoor.jpg",
+  "/images/keerthana/keerthana_moments.png"
 ];
 
 const FinalSurprise = () => {
@@ -102,11 +103,11 @@ const FinalSurprise = () => {
           transition={{ delay: 1, type: 'spring' }}
           style={{ fontSize: '3.5rem', textAlign: 'center', color: 'var(--accent-pink)', marginBottom: '20px' }}
         >
-          Hemanthi ❤️
+          Keerthana ❤️
         </motion.h2>
 
         <p style={{ color: 'var(--text-secondary)', letterSpacing: '2px', fontWeight: 'bold', marginBottom: '30px' }}>
-          16 September 2004
+          30 August 2004
         </p>
 
         <p className="body-text" style={{ fontStyle: 'italic', marginBottom: '40px', textAlign: 'center' }}>
@@ -132,7 +133,7 @@ const FinalSurprise = () => {
             <motion.img
               key={photoIndex}
               src={finalPhotos[photoIndex]}
-              alt="Hemanthi Final"
+              alt="Keerthana Final"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
@@ -141,7 +142,7 @@ const FinalSurprise = () => {
                 width: 'calc(100% - 20px)',
                 height: 'calc(100% - 20px)',
                 objectFit: 'cover',
-                objectPosition: 'center 15%',
+                objectPosition: 'center 20%',
                 borderRadius: '12px',
                 position: 'absolute',
                 top: '10px',

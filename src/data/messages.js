@@ -15,7 +15,7 @@ Some bring laughter.
 
 And some people simply make the place feel a little better by being there.
 
-Hemanthi, you are one of those people.
+Keerthana, you are one of those people.
 
 Keep dancing.
 Keep singing.
@@ -26,7 +26,7 @@ Keep being that cute, crazy, talented person you are.
 
 And never forget how special you are.
 
-Happy Birthday, Hemanthi. ❤️
+Happy Birthday, Keerthana. ❤️
 
 May this year bring you beautiful memories, big dreams, endless smiles and everything your heart wishes for.`
 };

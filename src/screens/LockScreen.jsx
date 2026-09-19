@@ -44,13 +44,13 @@ const LockScreen = () => {
               boxShadow: '0 0 30px rgba(255,107,158,0.4)'
             }}>
               <img
-                src="/images/hemanthi/hemanthi_poster.jpg"
-                alt="Hemanthi"
+                src="/images/keerthana/keerthana_poster.jpg"
+                alt="Keerthana"
                 style={{
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
-                  objectPosition: 'center 18%',
+                  objectPosition: 'center 20%',
                   borderRadius: '50%',
                   border: '3px solid var(--bg-primary)'
                 }}
@@ -61,10 +61,10 @@ const LockScreen = () => {
             </h1>
             <p className="body-text" style={{ marginBottom: '10px' }}>
               But not yet...<br />
-              Hemanthi's special day is almost here. ❤️
+              Keerthana's special day is almost here. ❤️
             </p>
             <p style={{ color: 'var(--accent-gold)', fontWeight: '600', letterSpacing: '2px', marginBottom: '30px' }}>
-              16 • 09 • 2004
+              30 • 08 • 2004
             </p>
           </motion.div>
 
@@ -110,7 +110,7 @@ const LockScreen = () => {
             🎉 IT'S TIME!
           </h1>
           <h2 className="heading-large" style={{ fontSize: '2rem', marginBottom: '40px' }}>
-            Happy Birthday, Hemanthi!
+            Happy Birthday, Keerthana!
           </h2>
 
           <button className="btn-primary" onClick={startSurprise} style={{ width: '100%' }}>

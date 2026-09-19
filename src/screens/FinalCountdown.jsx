@@ -32,7 +32,7 @@ const FinalCountdown = () => {
         className="heading-large"
         style={{ fontSize: '2.8rem', marginBottom: '20px', color: 'var(--accent-gold)' }}
       >
-        Hemanthi...
+        Keerthana...
       </motion.h1>
 
       <motion.p

@@ -1,22 +1,27 @@
-export const hemanthiPhotos = [
+export const keerthanaPhotos = [
   {
-    image: "/images/hemanthi/hemanthi_poster.jpg",
-    caption: "That infectious smile ❤️"
+    image: "/images/keerthana/keerthana_poster.jpg",
+    caption: "That infectious smile that lights up the room ❤️"
   },
   {
-    image: "/images/hemanthi/hemanthi_traditional.jpg",
-    caption: "Traditional elegance & grace ✨"
+    image: "/images/keerthana/keerthana_traditional.jpg",
+    caption: "Traditional elegance & shy grace ✨"
   },
   {
-    image: "/images/hemanthi/hemanthi_smile.jpg",
-    caption: "Sweetest bond & pure joy 🥹"
+    image: "/images/keerthana/keerthana_car.jpg",
+    caption: "Radiant vibes and endless charm 💛"
   },
   {
-    image: "/images/hemanthi/hemanthi_outdoor.jpg",
-    caption: "Looking gorgeous as always 🌸"
+    image: "/images/keerthana/keerthana_outdoor.jpg",
+    caption: "Looking effortlessly stunning as always 🌸"
+  },
+  {
+    image: "/images/keerthana/keerthana_moments.png",
+    caption: "Sweet moments and unforgettable memories 🥹"
   }
 ];
 
-// Alias for backwards compatibility across existing components
-export const anuPhotos = hemanthiPhotos;
+// Aliases for backwards compatibility across existing components
+export const hemanthiPhotos = keerthanaPhotos;
+export const anuPhotos = keerthanaPhotos;
 

@@ -33,7 +33,7 @@ const PersonalityScreen = () => {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
         <h2 className="heading-large" style={{ fontSize: '2rem', marginBottom: '40px', textAlign: 'center' }}>
-          Who is Hemanthi?
+          Who is Keerthana?
         </h2>
 
         <div style={{ position: 'relative', width: '100%', maxWidth: '300px', height: '250px' }}>

@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import NextButton from '../components/NextButton';
 import ProgressIndicator from '../components/ProgressIndicator';
-import { hemanthiPhotos } from '../data/photos';
+import { keerthanaPhotos } from '../data/photos';
 
 const PhotoGame = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
 
-  const photosToUse = hemanthiPhotos.slice(0, 4);
+  const photosToUse = keerthanaPhotos;
 
   const handleReveal = () => {
     setRevealed(true);

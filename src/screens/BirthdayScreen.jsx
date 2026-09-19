@@ -45,7 +45,7 @@ const BirthdayScreen = () => {
             animate={{ y: 0 }}
             transition={{ type: 'spring', bounce: 0.5, delay: 0.2 }}
           >
-            16 • 09 • 2004
+            30 • 08 • 2004
           </motion.h1>
           
           <motion.div
